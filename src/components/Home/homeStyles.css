@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+    }
+    @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+    }
+    .home-container {
+    box-sizing: border-box;
+    /* background-color: rgb(250, 193, 193); */
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: linear-gradient(to left, #FBD3E9, #0e6e02);
+    margin: 0;
+    min-height:80vh;
+    padding:60px 0;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+    .home-container .container {
+    max-width:60vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    background-color: white;
+    border-left: 1px solid white;
+    border-radius: 8px 0 0 8px;
+    }
+    .home-container .container h1 {
+    font-size: 40px;
+    color:#0e6e02;
+    font-weight:600;
+    animation: fadein 3s;
+    margin-bottom:20px;
+    }
+    .home-container .container .text
+    {
+    width: 90%;
+    padding:30px 0;
+    text-align: center;
+    margin:0 auto;
+    }
+    .home-container form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    margin:0 auto;
+    }
+    .home-container form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid #0e6e02;
+    width: 55%;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin:10px auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #0e6e02;
+    transition-duration: 0.25s;
+    }
+    .home-container form input:hover {
+    background-color: #0e6e02;
+    color:#FBD3E9;
+    }
+    .home-container form input:focus {
+    background-color:#0e6e02;
+    width: 300px;
+    color:#FBD3E9;
+    }
+    .home-container form ::placeholder
+    {
+    color:#0e6e02;
+    }
+    .home-container form input:hover::placeholder
+    {
+    color:white;
+    }
+    .home-container form button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: #0e6e02;
+    border: 0;
+    padding: 10px 15px;
+    color: #FBD3E9;
+    border-radius: 3px;
+    font-size:20px;
+    width: 60%;
+    cursor: pointer;
+    transition-duration: 0.25s;
+    }
+    .home-container form button:hover {
+    border: 1px solid  #0e6e02;
+    border-radius: 5px;
+    background-color: #f5f7f9;
+    color: #0e6e02;
+    }
+    /* webcam  */
+    .home-container .webcam-container
+    {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+    }
+    .home-container .webcam-container .webcam-btn
+    {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:38%;
+    }
+    /* Media queries ~ */
+    @media screen and (max-width:1000px)
+    {
+    .home-container .container
+    {
+    max-width:90vw;
+    }
+    }
+    @media screen and (max-width:678px)
+    {
+    .login-container
+    {
+    padding-top: 10%;
+    }
+    .home-container .container
+    {
+    max-width: 80vw;
+    }
+    .home-container form
+    {
+    width:90%;
+    }
+    .home-container .loginDesign
+    {
+    display: none;
+    }
+    .home-container .container .text
+    {
+    width: 100%;
+    padding: 80px 20px;
+    }
+    }
