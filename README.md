@@ -1,13 +1,13 @@
-## PROJECT DETAILS
+# PROJECT DETAILS
 
 
 This repo demonstrates the working of a React application where user can click pictures using their webcam.The main library used is React-webcam which simplies the process of capturing front face images of users.
 
-# React-Webcam - <a href="https://www.npmjs.com/package/react-webcam">Link</a>
+## React-Webcam - <a href="https://www.npmjs.com/package/react-webcam">Link</a>
 
-# <a href="https://youtu.be/FK9x6xwyYOc">Youtube Video Link</a>  
+## <a href="https://youtu.be/FK9x6xwyYOc">Youtube Video Link</a>  
 
-# <a href="https://javascript.plainenglish.io/capture-images-via-webcam-using-react-9282bb87de5a">Medium Article Link</a>
+## <a href="https://javascript.plainenglish.io/capture-images-via-webcam-using-react-9282bb87de5a">Medium Article Link</a>
 
 ![form2](https://user-images.githubusercontent.com/53037053/156870822-b6ffc4dc-391a-4ca6-a299-f981db270ca4.png)
 
